@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/careerStyle.css">
+  <link rel="stylesheet" href="css/upload.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="images/FUJI RED MOUNTAIN.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Fuji Dental Lab Careers</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <form action="#" id="formData">
+  </form>
+  <nav class="navbar">
+    <div class="inner-width">
+      <a href="/" class="logo"></a>
+      <button class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-menu" id="cNavbar-menu">
+        <a href="/index.html">Home</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Log-in</a>
+          <div class="dropdown-content">
+            <h4>Account Name</h4>
+            <form action="#">
+              <input type="text" class="acctNum" placeholder="Account Number" />
+              <h4>Password</h4>
+              <input type="text" class="passWord" placeholder="Password" />
+              <input type="submit" value="Log in" class="login" />
+              <input type="button" onclick=" window.location='reg.html';" value="Create an Account" class="register" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="massContainer">
+    <div class="header"> <span> Applying? Upload your resume.</span>
+      <div class="infoContainer">
+        <form action="/upload.php">
+          <input type="file" id="myFile" name="filename">
+          <input type="submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="inner-width">
+      <div class="copyright">
+        &copy; Fuji Dental Lab 2020 - 2021 | Created By
+        <a href="https://worksofwarren.com/" id="website">Warren Hyman III</a>
+      </div>
+      <div class="sm">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-youtube"></a>
+        <a href="#" class="fab fa-linkedin-in"></a>
+      </div>
+    </div>
+  </footer>
+  <!--Back to top-->
+  <button class="goTop fas fa-arrow-up"></button>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
