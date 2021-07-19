@@ -1,0 +1,72 @@
+#header{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/SPNJ_empty_college_lecture_hall_051320.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.list{
+    display:flex wrap;
+    
+}
+.hContainer{
+    width: 75em;
+    display: flex;
+    flex-flow: column wrap;
+    margin:auto;
+    padding:1em 2em 1em 2em;  
+    background:transparent;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hContainer h3{
+    font-family: 'GFS Didot';font-size: 90px;
+}
+
+h4{
+    font-family: "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 70px;
+    margin: 20px 0 0 20px;
+}
+
+.hContainer span{
+    font-family: "Didot", "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 75px;
+    margin-left: 20px;
+    color: #f1f1f1;
+}
+
+.hContainer p{
+    font-family: 'The Scientist', sans-serif;
+    font-size: 100px;
+    margin-left: 20px;
+    color:#d03228;
+}
+
+#event{
+    background-color:#f1f1f1;
+}
+
+#event h3{
+    font-size: 30px;
+    color: #d03228;
+    margin-left: 20px;
+}
+
+.listing{
+    margin: 20px;
+    width: 500px;
+    height: auto;
+    background-color: #353b48;
+    border-style: solid;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.8);
+}
+
+.listing ul{
+    padding: 10px;
+    margin: 0;
+    color: #f1f1f1;
+}
